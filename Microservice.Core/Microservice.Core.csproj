@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Project\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Aggregates\" />
+  </ItemGroup>
+
+</Project>

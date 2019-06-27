@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CTOSuite.CoreAPI.Delivery</name>
+    </assembly>
+    <members>
+        <member name="M:CTOSuite.CoreAPI.Delivery.Controllers.ValuesController.Get">
+            <summary>
+            comments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CTOSuite.CoreAPI.Delivery.Extensions.CoreExtension.ConfigureCors(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            CORS configurations
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CTOSuite.CoreAPI.Delivery.Extensions.DependencyInyectionExtension.DependencyInyectionConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Set all dependencies
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CTOSuite.CoreAPI.Delivery.Extensions.SQLExtension.ConfigureSqlContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Connections string
+            </summary>
+            <param name="services"></param>
+            <param name="config"></param>
+        </member>
+        <member name="M:CTOSuite.CoreAPI.Delivery.Extensions.SwaggerExtension.ApiDocumentation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger Configuration
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:CTOSuite.CoreAPI.Delivery.Utilities.AppSettings">
+            <summary>
+            Application settings
+            </summary>
+        </member>
+        <member name="P:CTOSuite.CoreAPI.Delivery.Utilities.AppSettings.SomeParameter">
+            <summary>
+            SomeParameter
+            </summary>
+        </member>
+    </members>
+</doc>
